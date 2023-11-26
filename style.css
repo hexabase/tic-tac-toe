@@ -46,4 +46,11 @@ section {
     color: #5586e2;
     box-shadow: 2px 2px 2px 2px #d86c23;
     border: 2px solid #d86c23;
+    margin-bottom: 1em;
+}
+
+#game--id {
+    font-size: 20px;
+    color: #d7a62f;
+    margin: 10px auto;
 }

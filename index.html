@@ -7,6 +7,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Tic-Tac-Toe</title>
         <link rel="stylesheet" href="style.css">
+        <script
+            src="./hexabase.js">
+        </script>
     </head>
     <body>
         <section>
@@ -23,7 +26,10 @@
                 <div data-cell-index="8" class="cell"></div>
             </div>
             <h2 class="game--status"></h2>
-            <button class="game--restart">Restart Game</button>
+            <button class="game--restart">New game</button><br />
+            Or
+            <input type="text" id="game--id" placeholder="Enter game ID" /><br />
+            <button class="game--join">Join game</button>
         </section>
         <script src="script.js"></script>
     </body>
